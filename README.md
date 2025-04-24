@@ -69,7 +69,7 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  Developed by:Srinath YG
  RegisterNumber:212224230274
 
-```
+```verilog
 module LOGIC_GATES(a,b,andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate);
 input a,b;
 output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate;
@@ -82,6 +82,7 @@ xor(xorgate,a,b);
 xnor(xnorgate,a,b);
 endmodule
 ```
+
  
 **Logic symbol & Truthtable**
 
